@@ -9,11 +9,20 @@
 /* Begin PBXBuildFile section */
 		E85DEA871A2CBFA400ADE57A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DEA861A2CBFA400ADE57A /* main.m */; };
 		E85DEA8A1A2CBFA400ADE57A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DEA891A2CBFA400ADE57A /* AppDelegate.m */; };
-		E85DEA8D1A2CBFA400ADE57A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DEA8C1A2CBFA400ADE57A /* ViewController.m */; };
-		E85DEA901A2CBFA400ADE57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85DEA8E1A2CBFA400ADE57A /* Main.storyboard */; };
 		E85DEA921A2CBFA400ADE57A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E85DEA911A2CBFA400ADE57A /* Images.xcassets */; };
 		E85DEA951A2CBFA400ADE57A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E85DEA931A2CBFA400ADE57A /* LaunchScreen.xib */; };
 		E85DEAA11A2CBFA400ADE57A /* Email_Line_LoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DEAA01A2CBFA400ADE57A /* Email_Line_LoginTests.m */; };
+		E85DEAB41A2CC05F00ADE57A /* LKActivity-Flat.png in Resources */ = {isa = PBXBuildFile; fileRef = E85DEAAC1A2CC05E00ADE57A /* LKActivity-Flat.png */; };
+		E85DEAB51A2CC05F00ADE57A /* LKActivity-Flat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E85DEAAD1A2CC05F00ADE57A /* LKActivity-Flat@2x.png */; };
+		E85DEAB61A2CC05F00ADE57A /* LKActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = E85DEAAE1A2CC05F00ADE57A /* LKActivity.png */; };
+		E85DEAB71A2CC05F00ADE57A /* LKActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E85DEAAF1A2CC05F00ADE57A /* LKActivity@2x.png */; };
+		E85DEAB81A2CC05F00ADE57A /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DEAB11A2CC05F00ADE57A /* Line.m */; };
+		E85DEAB91A2CC05F00ADE57A /* LKLineActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DEAB31A2CC05F00ADE57A /* LKLineActivity.m */; };
+		E85DEABC1A2CC09000ADE57A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E85DEABB1A2CC09000ADE57A /* ViewController.m */; };
+		E85DEABE1A2CC0A100ADE57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E85DEABD1A2CC0A100ADE57A /* Main.storyboard */; };
+		E85DEAC01A2CC0B100ADE57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DEABF1A2CC0B100ADE57A /* Foundation.framework */; };
+		E85DEAC21A2CC0BB00ADE57A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DEAC11A2CC0BB00ADE57A /* MessageUI.framework */; };
+		E85DEAC41A2CC0C600ADE57A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E85DEAC31A2CC0C600ADE57A /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +41,25 @@
 		E85DEA861A2CBFA400ADE57A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E85DEA881A2CBFA400ADE57A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E85DEA891A2CBFA400ADE57A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E85DEA8B1A2CBFA400ADE57A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E85DEA8C1A2CBFA400ADE57A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E85DEA8F1A2CBFA400ADE57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E85DEA911A2CBFA400ADE57A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E85DEA941A2CBFA400ADE57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E85DEA9A1A2CBFA400ADE57A /* Email_Line_LoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Email_Line_LoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E85DEA9F1A2CBFA400ADE57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E85DEAA01A2CBFA400ADE57A /* Email_Line_LoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Email_Line_LoginTests.m; sourceTree = "<group>"; };
+		E85DEAAC1A2CC05E00ADE57A /* LKActivity-Flat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity-Flat.png"; sourceTree = "<group>"; };
+		E85DEAAD1A2CC05F00ADE57A /* LKActivity-Flat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity-Flat@2x.png"; sourceTree = "<group>"; };
+		E85DEAAE1A2CC05F00ADE57A /* LKActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LKActivity.png; sourceTree = "<group>"; };
+		E85DEAAF1A2CC05F00ADE57A /* LKActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LKActivity@2x.png"; sourceTree = "<group>"; };
+		E85DEAB01A2CC05F00ADE57A /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		E85DEAB11A2CC05F00ADE57A /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		E85DEAB21A2CC05F00ADE57A /* LKLineActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LKLineActivity.h; sourceTree = "<group>"; };
+		E85DEAB31A2CC05F00ADE57A /* LKLineActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LKLineActivity.m; sourceTree = "<group>"; };
+		E85DEABA1A2CC09000ADE57A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E85DEABB1A2CC09000ADE57A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E85DEABD1A2CC0A100ADE57A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		E85DEABF1A2CC0B100ADE57A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E85DEAC11A2CC0BB00ADE57A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E85DEAC31A2CC0C600ADE57A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85DEAC41A2CC0C600ADE57A /* MobileCoreServices.framework in Frameworks */,
+				E85DEAC21A2CC0BB00ADE57A /* MessageUI.framework in Frameworks */,
+				E85DEAC01A2CC0B100ADE57A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +86,9 @@
 		E85DEA781A2CBFA400ADE57A = {
 			isa = PBXGroup;
 			children = (
+				E85DEAC31A2CC0C600ADE57A /* MobileCoreServices.framework */,
+				E85DEAC11A2CC0BB00ADE57A /* MessageUI.framework */,
+				E85DEABF1A2CC0B100ADE57A /* Foundation.framework */,
 				E85DEA831A2CBFA400ADE57A /* Email_Line_Login */,
 				E85DEA9D1A2CBFA400ADE57A /* Email_Line_LoginTests */,
 				E85DEA821A2CBFA400ADE57A /* Products */,
@@ -81,13 +107,14 @@
 		E85DEA831A2CBFA400ADE57A /* Email_Line_Login */ = {
 			isa = PBXGroup;
 			children = (
+				E85DEAAA1A2CC05E00ADE57A /* LineKit */,
 				E85DEA881A2CBFA400ADE57A /* AppDelegate.h */,
 				E85DEA891A2CBFA400ADE57A /* AppDelegate.m */,
-				E85DEA8B1A2CBFA400ADE57A /* ViewController.h */,
-				E85DEA8C1A2CBFA400ADE57A /* ViewController.m */,
-				E85DEA8E1A2CBFA400ADE57A /* Main.storyboard */,
+				E85DEABA1A2CC09000ADE57A /* ViewController.h */,
+				E85DEABB1A2CC09000ADE57A /* ViewController.m */,
 				E85DEA911A2CBFA400ADE57A /* Images.xcassets */,
 				E85DEA931A2CBFA400ADE57A /* LaunchScreen.xib */,
+				E85DEABD1A2CC0A100ADE57A /* Main.storyboard */,
 				E85DEA841A2CBFA400ADE57A /* Supporting Files */,
 			);
 			path = Email_Line_Login;
@@ -117,6 +144,29 @@
 				E85DEA9F1A2CBFA400ADE57A /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E85DEAAA1A2CC05E00ADE57A /* LineKit */ = {
+			isa = PBXGroup;
+			children = (
+				E85DEAAB1A2CC05E00ADE57A /* images */,
+				E85DEAB01A2CC05F00ADE57A /* Line.h */,
+				E85DEAB11A2CC05F00ADE57A /* Line.m */,
+				E85DEAB21A2CC05F00ADE57A /* LKLineActivity.h */,
+				E85DEAB31A2CC05F00ADE57A /* LKLineActivity.m */,
+			);
+			path = LineKit;
+			sourceTree = "<group>";
+		};
+		E85DEAAB1A2CC05E00ADE57A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E85DEAAC1A2CC05E00ADE57A /* LKActivity-Flat.png */,
+				E85DEAAD1A2CC05F00ADE57A /* LKActivity-Flat@2x.png */,
+				E85DEAAE1A2CC05F00ADE57A /* LKActivity.png */,
+				E85DEAAF1A2CC05F00ADE57A /* LKActivity@2x.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +249,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85DEA901A2CBFA400ADE57A /* Main.storyboard in Resources */,
+				E85DEABE1A2CC0A100ADE57A /* Main.storyboard in Resources */,
+				E85DEAB51A2CC05F00ADE57A /* LKActivity-Flat@2x.png in Resources */,
 				E85DEA951A2CBFA400ADE57A /* LaunchScreen.xib in Resources */,
+				E85DEAB41A2CC05F00ADE57A /* LKActivity-Flat.png in Resources */,
 				E85DEA921A2CBFA400ADE57A /* Images.xcassets in Resources */,
+				E85DEAB71A2CC05F00ADE57A /* LKActivity@2x.png in Resources */,
+				E85DEAB61A2CC05F00ADE57A /* LKActivity.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +273,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E85DEA8D1A2CBFA400ADE57A /* ViewController.m in Sources */,
+				E85DEAB81A2CC05F00ADE57A /* Line.m in Sources */,
 				E85DEA8A1A2CBFA400ADE57A /* AppDelegate.m in Sources */,
 				E85DEA871A2CBFA400ADE57A /* main.m in Sources */,
+				E85DEAB91A2CC05F00ADE57A /* LKLineActivity.m in Sources */,
+				E85DEABC1A2CC09000ADE57A /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +300,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E85DEA8E1A2CBFA400ADE57A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E85DEA8F1A2CBFA400ADE57A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E85DEA931A2CBFA400ADE57A /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
